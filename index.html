@@ -6,18 +6,26 @@
       <!-- Font Awasome link  -->
       <script src="https://kit.fontawesome.com/09a3d3d6d4.js" crossorigin="anonymous"></script>
       <!-- style sheet link  of web  -->
-      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="style1.css">
       <!-- Tailwindcss of link  -->
       <link rel="stylesheet" href="style.css">
       <!-- /// title name   off website  -->
       <title>Weather App</title>
 </head>
-<body class=" md:flex justify-center text-center  bg-slate-700">
-      <div class="container relative w-60 h-56">
-            <div class="search-box">
+<body class="main text-center mt-6  md:flex justify-center   bg-slate-700">
+      <div class="container  md:relative w-[400px] h-[500px] bg-indigo-800 rounded-[20px] p-6">
+            <div class="search-box  relative w-[100%] h-14  flex text-center ">
                   <i class="fa-solid fa-location-dot"></i>
-                  <input type="text" placeholder="Enter your  Location">
+                  <input class="absolute w-[100%] h-[100%] bg-transparent rounded-xl " type="text" placeholder="Enter your  Location">
                   <button class="fa-solid fa-magnifying-glass"></button>
+            </div>
+
+            <div class="weather-box">
+                  <div class="box">
+                        <div class="info-box">
+                              <div class="weather"></div>
+                        </div>
+                  </div>
             </div>
       </div>
 

@@ -1,3 +1,41 @@
- body{
+ .main{
+     flex: flex;
+     text-align: center;
+     justify-content: center; 
+     min-height: 100vh;
+      background-color: blueviolet;
+}
+
+.search-box i{
+      margin-top: 10px;
+      font-size: 28px;
+      color: rgb(49, 50, 52);
+      cursor: pointer;
+      margin-left: 10px;
+}
+
+.search-box input {
+      border: 2px solid rgba(155, 139, 139, 0.654);  
+      padding: 0 48px 0 42px;
+      text-transform: capitalize;
+      font-weight: 500;
       
- }
+}
+
+.search-box input::placeholder{
+      color: aliceblue;
+      text-transform: capitalize;
+}
+.search-box button {
+      position: absolute;
+      right: 0;
+      width: 40px;
+      height: 100%;
+      background: transparent;
+      border: none;
+      outline: none;
+      font-size: 28px;
+      color: aliceblue;
+      cursor: pointer;
+      padding: 0 40px 0 5px;
+}
