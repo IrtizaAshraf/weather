@@ -3,7 +3,16 @@
      text-align: center;
      justify-content: center; 
      min-height: 100vh;
-      background-color: blueviolet;
+      background: url(accets/bg\ cloud.jpg);
+      background-position: center;
+      background-size: cover;
+}
+
+.container{
+      background: rgb(51, 96, 185);
+      backdrop-filter: blur(60px);
+      border: 3px solid rgba(43, 51, 175, 0.601) ;
+      box-shadow: 10px 10px 5px 10px #3b78f3;
 }
 
 .search-box i{
@@ -38,4 +47,26 @@
       color: aliceblue;
       cursor: pointer;
       padding: 0 40px 0 5px;
+}
+
+
+
+.weather-box img {
+      text-align: center;
+      width: 80%;
+     
+  
+}
+
+.waether-deatali .homudity,
+.waether-deatali .wind{
+     display: flex;
+      align-items: center;
+      width: 50%;
+
+}
+
+.waether-deatali i{
+      font-size: 50px;
+      margin-right: 10px;
 }

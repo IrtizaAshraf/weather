@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,18 +13,48 @@
       <!-- /// title name   off website  -->
       <title>Weather App</title>
 </head>
-<body class="main text-center mt-6  md:flex justify-center   bg-slate-700">
-      <div class="container  md:relative w-[400px] h-[500px] bg-indigo-800 rounded-[20px] p-6">
+
+<body class="main text-center mt-6 flex justify-center   ">
+
+
+      <div class="container  relative w-[400px] h-[500px]  rounded-[20px] p-6 text-white">
             <div class="search-box  relative w-[100%] h-14  flex text-center ">
                   <i class="fa-solid fa-location-dot"></i>
-                  <input class="absolute w-[100%] h-[100%] bg-transparent rounded-xl " type="text" placeholder="Enter your  Location">
+                  <input class="absolute w-[100%] h-[100%] bg-transparent rounded-xl " type="text"
+                        placeholder="Enter your  Location">
                   <button class="fa-solid fa-magnifying-glass"></button>
             </div>
 
             <div class="weather-box">
                   <div class="box">
                         <div class="info-box">
-                              <div class="weather"></div>
+                              <div class="weather  mt-8">
+                                    <img class="ml-20" src="accets/cloud 1.png" alt="cloud">
+                                    <p class="temperature relative text-6xl  font-bold">0 <span
+                                                class="absolute text-2xl  ml-3">°C </span></p>
+                                    <p class="discript text-2xl font-medium">Broken cloud</p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+
+            <div class="waether-deatali  w-full flex mt-3 gap-6 text-sm">
+                  <div class="homudity pr-5 justify-start">
+                        <i  class="fa-solid fa-water"></i>
+                        <div class="text">
+                              <div class="info-homudity">
+                                    <span class="font-medium text-2xl">0%</span>
+                              </div>
+                              <p>Humidty</p>
+                        </div>
+                  </div>
+                  <div class="wind pr-5 justify-end">
+                        <i class="fa-solid fa-wind"></i>
+                        <div class="text">
+                              <div class="info-wind">
+                                    <span class="font-medium text-2xl">0 km/h</span>
+                              </div>
+                              <p>Wind speed</p>
                         </div>
                   </div>
             </div>
@@ -33,8 +64,9 @@
 
 
 
-      
-  <!-- link of java script  -->
-  <script src="app.js"></script>
+
+      <!-- link of java script  -->
+      <script src="app.js"></script>
 </body>
+
 </html>
